@@ -40,6 +40,7 @@ You can find more info on the VSC documentation on [rust](https://code.visualstu
 6. Input the path to the txt file
 
 Make sure that the txt file is a valid adjacency matrix of `n x n` with distance to itself as 0 and distance to unadjacent nodes set to 9999 (unreachable/infinite length)
+
 Example:
 ```
 0 12 10 9999 9999 9999 12
