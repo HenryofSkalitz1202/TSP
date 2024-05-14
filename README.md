@@ -41,7 +41,15 @@ You can find more info on the VSC documentation on [rust](https://code.visualstu
 
 Make sure that the txt file is a valid adjacency matrix of `n x n` with distance to itself as 0 and distance to unadjacent nodes set to 9999 (unreachable/infinite length)
 Example:
-!(example.txt)
+```
+0 12 10 9999 9999 9999 12
+12 0 8 12 9999 9999 9999
+10 8 0 11 3 9999 9
+9999 12 11 0 11 10 9999
+9999 9999 3 11 0 6 7
+9999 9999 9999 10 6 0 9
+12 9999 9 9999 7 9 0
+```
 
 # Reference
 The project is inspired from the following [tutorial](https://www.tutorialspoint.com/data_structures_algorithms/travelling_salesman_problem_dynamic_programming.htm)
