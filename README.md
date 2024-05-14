@@ -1,5 +1,5 @@
-# Tucil3_13522097
-Word Ladder Solver with Uniform Cost Search (UCS), Greedy Best First Search (GBFS), and A* Search
+# Bonus_13522097
+Travelling Salesman Problem Solver Using Rust
 
 ## Table of Contents
 
